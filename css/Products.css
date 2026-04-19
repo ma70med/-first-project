@@ -1,0 +1,292 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+}
+p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+}
+.hero-content .rating svg{
+    color: #FF8A00 !important;
+}
+    .hero-content .title span {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #2C742F;
+    background: linear-gradient(rgba(32, 181, 38, 0.2), rgba(32, 181, 38, 0.2)20%);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    }
+    .hero-content .rating p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    
+    }
+    .hero-content .rating span{
+    color: #666666 ;
+    margin-left: 5px;
+    }
+    .hero-content .Frame {
+        padding: 3px 10px ;
+        border-radius: 30px;
+        background: linear-gradient(rgba(234, 75, 72, 0.1), rgba(234, 75, 72, 0.1)10%);
+        color: #EA4B48;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    /* counter */
+   .Quantity{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .counter{
+        padding: 8px;
+        background-color: #ffff;
+        border:  1px solid #E5E5E5;
+        width: fit-content;
+        border-radius:170px ;
+    }
+    .Quantity .counter button{
+        border-radius: 50%;
+        border:  1px solid #F2F2F2;
+        background-color: #F2F2F2;
+        text-align: center;
+        padding: 5px;
+        transition: all 0.3;
+    }
+     .Quantity button{
+        padding:16px 90px ;
+        border-radius:43px ;
+        background-color: #00B207;
+        border: transparent;
+        color: #fff;
+        transition: all 0.3;
+    }
+    .Quantity span{ 
+        padding: 16px;
+        border-radius: 43px;
+        border:  1px solid #20B5261A;
+        color: #000;
+        transition: all 0.3;
+    }
+    .Quantity .counter button:hover{
+        background-color: #00B207;
+        border: solid 1px #00B207;
+        color: #fff;
+    }
+   .Quantity span:hover{ 
+        background-color: #00B207;
+        border:  1px solid #00B207;
+        color: #fff;
+    }
+    .Quantity button:hover{
+        
+        background-color: #fff;
+        border: solid 1px #00B207;
+        color: #00B207;
+        
+    }
+
+
+
+    .table-responsive{
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th{
+    font-size: 12px;
+    font-weight: 500;
+    color: #808080;
+    padding: 16px 20px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.table tbody td{
+    padding: 18px 20px;
+    vertical-align: middle;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.table tbody tr:last-child td{
+    border-bottom: none;
+}
+
+.table img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.table strong{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+.table del{
+    font-size: 14px;
+    color: #999;
+}
+
+.badge{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+.text-bg-success-subtle{
+    background-color: #EAF7EA !important;
+    color: #2C742F !important;
+}
+
+.text-bg-danger-subtle{
+    background-color: #FDEDED !important;
+    color: #EA4B48 !important;
+}
+
+.btn-success{
+    background-color: #00B207;
+    border: none;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-success:hover{
+    background-color: #2C742F;
+}
+
+.btn-light{
+    background-color: #F2F2F2;
+    border: none;
+    color: #999;
+    padding: 10px 24px;
+    font-size: 14px;
+}
+
+.btn-sm{
+    font-size: 18px;
+    color: #999;
+}
+
+.btn-sm:hover{
+    color: #EA4B48;
+}
+
+.border-top{
+    border-top: 1px solid #E6E6E6 !important;
+}
+
+.border-top span{
+    font-size: 14px;
+    color: #666;
+}
+
+.border-top i{
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.border-top i:hover{
+    color: #00B207;
+}
+.counter {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 4px 10px;
+  background: #fff;
+  width: fit-content;
+}
+
+.qty-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e6e6e6;
+  background: #f7f7f7;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.qty-btn:hover {
+  background: #00b207;
+  color: #fff;
+  border-color: #00b207;
+  transform: scale(1.05);
+}
+
+.qty-value {
+  min-width: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* media */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 0;
+  }
+  .hero-content h2 {
+    font-size: 26px;
+  }
+
+  .hero-content .title h2 span {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .hero-content .rating p {
+    font-size: 13px;
+  }
+
+  .hero-des .social {
+    gap: 12px !important;
+  }
+
+  .Quantity {
+    gap: 30px !important;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .counter {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Quantity > button {
+    padding: 14px 10px;
+    font-size: 10px;
+    width: 100%;
+    
+  }
+}
