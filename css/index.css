@@ -50,6 +50,7 @@
         letter-spacing: -3%;
         line-height: 38px;
         font-weight: 500;
+        
     }
     /* media */
     @media (max-width: 768px) {
