@@ -9,6 +9,9 @@
         padding: 22px 30px ;
 
     }
+    a{
+        color: #1A1A1A;
+    }
     .navigation> .container svg{
         color:#666666 ;
     }
@@ -50,7 +53,7 @@
         letter-spacing: -3%;
         line-height: 38px;
         font-weight: 500;
-        
+
     }
     /* media */
     @media (max-width: 768px) {
@@ -541,7 +544,10 @@
     .product-card:hover h3{
         color: #00B207;
     }
-    .product-card:hover .product-icon{
+    .product-card:hover a{
+        color: #ffff;
+    }
+    .product-card:hover .product-icon   {
         background-color: #00B207;
         color: #fff;
     }
