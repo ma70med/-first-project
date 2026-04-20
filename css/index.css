@@ -324,7 +324,7 @@
 }
     /* end hero */
     .hero-box-top{
-        background-image: url(images/1a38ed3e9aabb671cc35be935fcff80a3b3c0f69.jpg);
+        background-image: url(../images/1a38ed3e9aabb671cc35be935fcff80a3b3c0f69.jpg);
         background-position:  center;
         background-size: cover;
         height: 288px;
@@ -352,7 +352,7 @@
         margin-left: 10px;
     }
     .hero-end{
-        background-image: url(images/a4634113f6d6a27ca8a91430a85ffc7700edf9ab.jpg);
+        background-image: url(../images/a4634113f6d6a27ca8a91430a85ffc7700edf9ab.jpg);
         background-position:  center;
         background-size: cover;
         margin-top: 20px;
@@ -557,7 +557,7 @@
     /* todo end Products */
     /* todo start Banner */
     .Banner-box{
-        background-image: url(images/8a3f3ac5cfb7c4dbc3d5547d1dd9274c56b0615e.jpg);
+        background-image: url(../images/8a3f3ac5cfb7c4dbc3d5547d1dd9274c56b0615e.jpg);
         background-position: top ;
         background-size: cover; 
         background-repeat: no-repeat;
@@ -609,7 +609,7 @@
         letter-spacing: 3%;
     }
     .Banner-box-2{
-        background-image: url(images/cb41c115301293b498e73ed185cf4f7de364d73a.jpg);
+        background-image: url(../images/cb41c115301293b498e73ed185cf4f7de364d73a.jpg);
         background-position: top ;
         background-size: cover; 
         background-repeat: no-repeat;
@@ -638,7 +638,7 @@
         margin-left: 5px;
     }
     .Banner-box-3{
-        background-image: url(images/627de77363d3144b88888de997dd16b7dda7316e.jpg);
+        background-image: url(../images/627de77363d3144b88888de997dd16b7dda7316e.jpg);
         background-position: top ;
         background-size: cover; 
         background-repeat: no-repeat;
@@ -673,7 +673,7 @@
     /* todo end Banner */
 
     .section{
-        background-image: url(images/736ac341802327b2806c879e76b9b8612d16e984.jpg);
+        background-image: url(../images/736ac341802327b2806c879e76b9b8612d16e984.jpg);
         background-position: center center;
         background-size: cover;
         
